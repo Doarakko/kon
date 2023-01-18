@@ -8,8 +8,9 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         .await?
         .json::<HashMap<String, String>>()
         .await?;
+    let img_url = &resp["image"];
 
-    let img_bytes = reqwest::get(&resp["image"]).await?.bytes().await?;
+    let img_bytes = reqwest::get(img_url).await?.bytes().await?;
     let img = load_from_memory(&img_bytes)?;
 
     let conf = Config {
@@ -17,6 +18,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         ..Default::default()
     };
     print(&img, &conf)?;
+
+    println!("{}", img_url);
 
     Ok(())
 }
