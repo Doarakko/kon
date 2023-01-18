@@ -1,17 +1,17 @@
-# kong
+# kon
 
 Display fox image on CLI.
 
 ## Install
 
 ```sh
-cargo install kong
+cargo install kon
 ```
 
 ## Usage
 
 ```sh
-kong
+kon
 ```
 
 ## Credit

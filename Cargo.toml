@@ -1,11 +1,11 @@
 [package]
-name = "kong"
+name = "kon"
 version = "0.1.0"
 edition = "2021"
 license-file = "LICENSE"
 description = "Display fox image on CLI."
-homepage = "https://github.com/Doarakko/kong"
-repository = "https://github.com/Doarakko/kong"
+homepage = "https://github.com/Doarakko/kon"
+repository = "https://github.com/Doarakko/kon"
 readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
