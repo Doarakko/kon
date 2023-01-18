@@ -18,7 +18,6 @@ kon
 
 ![sample](./sample.gif)
 
-
 ## Credit
 
 - [RandomFox](https://randomfox.ca/)
