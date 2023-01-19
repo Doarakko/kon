@@ -6,8 +6,17 @@ Display fox image in the terminal.
 
 ## Install
 
+cargo
+
 ```sh
 cargo install kon
+```
+
+Homebrew
+
+```sh
+brew tap Doarakko/kon
+brew install kon
 ```
 
 ## Usage
