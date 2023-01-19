@@ -2,7 +2,7 @@
 
 ![crates](https://img.shields.io/crates/v/kon.svg) ![Licence](https://img.shields.io/github/license/Doarakko/kon)
 
-Display fox image on CLI.
+Display fox image on the terminal.
 
 ## Install
 
