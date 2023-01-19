@@ -15,8 +15,7 @@ cargo install kon
 Homebrew
 
 ```sh
-brew tap Doarakko/kon
-brew install kon
+brew tap Doarakko/tap/kon
 ```
 
 ## Usage
