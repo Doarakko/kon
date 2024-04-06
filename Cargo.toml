@@ -12,6 +12,6 @@ readme = "README.md"
 
 [dependencies]
 viuer = "0.7.0"
-reqwest = { version = "0.11", features = ["blocking", "json"] }
+reqwest = { version = "0.12", features = ["blocking", "json"] }
 tokio = { version = "1", features = ["full"] }
 image = "0.24.9"
