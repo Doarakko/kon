@@ -11,7 +11,7 @@ readme = "README.md"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-viuer = "0.7.0"
+viuer = "0.7.1"
 reqwest = { version = "0.12", features = ["blocking", "json"] }
 tokio = { version = "1", features = ["full"] }
 image = "0.25.1"
