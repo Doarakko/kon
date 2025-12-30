@@ -27,6 +27,17 @@ kon
 
 ![sample](./sample.gif)
 
+## Release
+
+```sh
+# 1. Update version in Cargo.toml
+# 2. Create and push tag
+git tag v0.1.2
+git push origin v0.1.2
+# 3. Download sha256 files from release assets
+# 4. Update version and sha256 in https://github.com/Doarakko/homebrew-tap/blob/main/Formula/kon.rb
+```
+
 ## Credit
 
 - [RandomFox](https://randomfox.ca/)
