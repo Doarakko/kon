@@ -32,12 +32,10 @@ kon
 ```sh
 # 1. Update version in Cargo.toml
 # 2. Create and push tag
-git tag v0.1.2
-git push origin v0.1.2
-# 3. Download tar.gz from release assets and get sha256
-gh release download v0.1.3 --repo Doarakko/kon --pattern "*.tar.gz" --dir /tmp
-shasum -a 256 /tmp/kon-*.tar.gz
-# 4. Update version and sha256 in https://github.com/Doarakko/homebrew-tap/blob/main/Formula/kon.rb
+git tag v0.1.4
+git push origin v0.1.4
+# 3. Update homebrew-tap
+./scripts/update-homebrew.sh 0.1.4
 ```
 
 ## Credit
